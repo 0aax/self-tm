@@ -1,19 +1,19 @@
 def self(qt, tb):
     _self_ = r"""
-def self(): 
+def self(qt, tb): 
     _self_ = r
     print(_self_[:28] + qt + qt + qt)
     print(_self_[1:258])
     print(tb + qt + qt + qt)
-    print(_self_[29:245])
-    print(_self_[246:251] + repr(_self_[251]) + _self_[252] + repr(_self_[253:257]) + _self_[257])
+    print(_self_[35:251])
+    print(_self_[252:257] + repr(_self_[257]) + _self_[258] + repr(_self_[259:263]) + _self_[263])
 self(",    )
     """
-    print(_self_[:28] + qt + qt + qt)
-    print(_self_[1:258])
+    print(_self_[:34] + qt + qt + qt)
+    print(_self_[1:264])
     print(tb + qt + qt + qt)
-    print(_self_[29:245])
-    print(_self_[246:251] + repr(_self_[251]) + _self_[252] + repr(_self_[253:257]) + _self_[257])
+    print(_self_[35:251])
+    print(_self_[252:257] + repr(_self_[257]) + _self_[258] + repr(_self_[259:263]) + _self_[263])
 self('"','    ')
 
 
